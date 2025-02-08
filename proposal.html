@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Proposal to Sneha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+        }
+        .gif-container {
+            margin-top: 20px;
+        }
+        .gif-container img {
+            width: 200px;
+            height: auto;
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #333;
+        }
+        .heart {
+            position: relative;
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            transform: rotate(45deg);
+            animation: pulse 1.5s infinite;
+        }
+        .heart:before,
+        .heart:after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            top: -50px;
+        }
+        .heart:before {
+            left: 0;
+        }
+        .heart:after {
+            left: 50px;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1) rotate(45deg);
+            }
+            50% {
+                transform: scale(1.1) rotate(45deg);
+            }
+            100% {
+                transform: scale(1) rotate(45deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Proposal to Sneha</h1>
+    <div class="gif-container">
+        <img src="https://media.tenor.com/images/8a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a/tenor.gif" alt="Teddy Bear Holding Heart">
+    </div>
+    <div class="message">
+        <p>Sneha, I fell in love with you so hard. I want to spend today, tomorrow, and my entire life with you. I don't need a special day to say I love you, but I love you. Will you be my girlfriend?</p>
+    </div>
+    <div class="heart"></div>
+</body>
+</html>
